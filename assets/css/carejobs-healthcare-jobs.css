@@ -1,0 +1,84 @@
+/* CareJobs Healthcare Jobs. Minimal on purpose: type, color and links inherit from the theme. */
+
+.carejobs-hj {
+	margin: 0 0 1.5em;
+	font-size: inherit;
+	line-height: 1.5;
+}
+
+.carejobs-hj__heading {
+	margin: 0 0 0.5em;
+}
+
+.carejobs-hj__list,
+.carejobs-hj__meta {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.carejobs-hj__item {
+	margin: 0;
+	padding: 0.75em 0;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.carejobs-hj__item:first-child {
+	padding-top: 0;
+}
+
+.carejobs-hj__name {
+	display: block;
+	font-weight: 600;
+}
+
+.carejobs-hj__meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.15em 1em;
+	margin-top: 0.15em;
+	font-size: 0.9em;
+	opacity: 0.85;
+}
+
+.carejobs-hj__meta li {
+	margin: 0;
+	padding: 0;
+}
+
+.carejobs-hj__employer {
+	font-weight: 500;
+}
+
+.carejobs-hj__pay-amount {
+	font-weight: 600;
+}
+
+.carejobs-hj__more {
+	margin: 0.75em 0 0;
+	font-weight: 600;
+}
+
+.carejobs-hj__message,
+.carejobs-hj__notice {
+	margin: 0;
+}
+
+.carejobs-hj__notice {
+	margin-bottom: 0.75em;
+	padding: 0.5em 0.75em;
+	border-left: 3px solid currentColor;
+	font-size: 0.9em;
+}
+
+.carejobs-hj__sr {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}

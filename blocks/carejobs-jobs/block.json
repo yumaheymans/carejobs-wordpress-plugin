@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "carejobs/healthcare-jobs",
+	"title": "Healthcare Jobs",
+	"category": "widgets",
+	"icon": "heart",
+	"description": "A live list of open US healthcare jobs from CareJobs.Now, filtered by kind of job, state and keywords.",
+	"keywords": [ "jobs", "healthcare", "nursing", "careers" ],
+	"textdomain": "carejobs-healthcare-jobs",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+		"kind": {
+			"type": "string",
+			"default": ""
+		},
+		"state": {
+			"type": "string",
+			"default": ""
+		},
+		"query": {
+			"type": "string",
+			"default": ""
+		},
+		"limit": {
+			"type": "integer",
+			"default": 10
+		},
+		"sort": {
+			"type": "string",
+			"default": "newest"
+		},
+		"remote": {
+			"type": "boolean",
+			"default": false
+		},
+		"minPay": {
+			"type": "integer",
+			"default": 0
+		},
+		"newTab": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "carejobs-hj-block-editor",
+	"style": "carejobs-healthcare-jobs"
+}
